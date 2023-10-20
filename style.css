@@ -1,0 +1,199 @@
+:root{
+    --main-color:rgba(30, 30, 74, 0.901);
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+/* CSS for top-Nav*/
+.phone-details .fa-solid{
+    font-size: 2rem;
+    color: var(--main-color);
+}
+
+.phone-details p{
+    font-size: 1.5rem;
+}
+.phone-details button{
+    background-color: rgb(123, 12, 12);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 2rem;
+    padding: 8px;
+}
+.phone-details button:hover{
+    background: rgb(218, 4, 4);
+    border-radius: 15px;
+}
+/* CSS for main section*/
+.leftside{
+    padding: 25px;
+}
+.leftside h1{
+    font-size: 4rem;
+    color: var(--main-color);
+}
+.leftside p{
+    font-size: 2rem;
+    color: var(--main-color);
+}
+.rightside{
+    background: var(--main-color);
+    padding: 20px;
+    border-radius: 5px;
+}
+.rightside h3{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 3rem;
+}
+.rightside form .form-group input{
+    padding: 15px;
+}
+.rightside form button{
+    padding: 8px;
+    font-size: 2rem;
+    background: rgb(123, 12, 12);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.rightside form button:hover{
+    background: rgb(218, 4, 4);
+    border-radius: 15px;
+}
+/* CSS for report section*/
+.report-section{
+    text-align: center;
+    margin: 15px;
+}
+.report-section .row .col-md-2{
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+.report-section h2{
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 5em;
+}
+.report-section .fa-solid{
+    font-size: 50px;
+    padding: 10px;
+    color: var(--main-color);
+}
+.report-section .row h6{
+    color: var(--main-color);
+   font-size: 1.5rem;
+   padding: 10px 0 10px;
+}
+.report-section .row p{
+    font-size: 1.5rem;
+}
+/* CSS for report section*/
+.benefit .row .list-one{
+    padding: 50px;
+    
+}
+.benefit .row .list-one h1{
+    font-size: 6em;
+    color: var(--main-color);
+}
+.benefit .row .list-one ul{
+    list-style-image: url(images/bullet_list.png);
+    padding: 25px;
+}
+.benefit .row .list-one ul li{
+    font-size: 20px;
+    color: black;
+    padding: 8px;
+}
+/* CSS for card section*/
+.three-card h1{
+    color: var(--main-color);
+    font-size: 4.5em;
+    text-align: center;
+}
+.three-card .row
+{
+    margin: 40px;
+}
+.three-card .row .card{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+.three-card .row .card-body{
+    padding: 0px
+}
+.three-card .row .card h5{
+    text-align: center;
+    padding: 15px;
+    font-size: 2em;
+}
+
+/*CSS for Section Statement*/
+.statement .row .list-item h1{
+    padding: 25px;
+    font-size: 5rem;
+    color: var(--main-color);
+}
+.statement .row .list-item li{
+    padding: 10px;
+    font-size: 3rem;
+    list-style: none;
+} 
+
+/*CSS for footer section1*/
+.footer-light{
+    margin-top: 40px;
+    background-color: rgb(241, 241, 243);
+}
+.footer-light .footer-widget p{
+    text-align: justify;
+    padding: 20px;
+    font-size: 2rem;
+}
+.footer-light .footer-widget .fa-brands{
+    padding-left: 20px;
+   color: var(--main-color);
+   font-size: 3rem;
+}
+.footer-light .footer-widget .fa-brands:hover{
+   color: rgb(4, 4, 103);
+   font-size: 5rem;
+}
+.footer-light .footer-widget .footer-contact{
+    padding: 20px 50px;
+}
+.footer-light .footer-widget .footer-contact h4{
+    color: var(--main-color);
+    font-size: 2.5rem;
+    padding: 6px;
+}
+.footer-light .footer-widget .footer-contact h6{
+    font-size: 1.5rem;
+}
+.footer-light .footer-widget .footer-contact .fa-solid{
+    color: var(--main-color);
+    font-size: 2rem;
+    padding: 8px;
+}
+.footer-light .footer-widget .footer-contact ul{
+    font-size: 1.5rem;
+    list-style: none;
+    padding-left: 15px;
+}
+.footer-light .copyright-text{
+    font-size: 1.5vw;
+    color: var(--main-color);
+}
+
